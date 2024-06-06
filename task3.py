@@ -17,8 +17,8 @@ l.append( tk.Label(w,text="Number Calculator"))
 
 
 e = []
-e.append( tk.Entry(w,text=""))
-e.append( tk.Entry(w,text=""))
+e.append( tk.Entry(w,text="", width=15))
+e.append( tk.Entry(w,text="", width=15))
 e.append( tk.Entry(w,text="answer",state='disabled'))
 b=[]
 b.append(tk.Button(w,text="x"))
