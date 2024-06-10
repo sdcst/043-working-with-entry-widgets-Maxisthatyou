@@ -93,16 +93,14 @@ b[2].bind("<Button-1>",sub)
 b[3].bind("<Button-1>",div)
 
 l[2].grid(row=1,column=1,columnspan=4)
-l[0].grid(row=2,column=1,columnspan=2)
-l[1].grid(row=2,column=3,columnspan=2)
 b[0].grid(row=4,column=1)
 b[1].grid(row=4,column=2)
 b[2].grid(row=4,column=3)
 b[3].grid(row=4,column=4)
 e[2].grid(row=5,column=1,columnspan=4)
 e[3].grid(row=6,column=1,columnspan=4)
-e2.grid(row=3,column=1,columnspan=2)
-e3.grid(row=3,column=3,columnspan=2)
+e2.grid(row=2,column=1,columnspan=2)
+e3.grid(row=2,column=3,columnspan=2)
 
 
 w.mainloop()
